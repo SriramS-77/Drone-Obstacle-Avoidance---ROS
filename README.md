@@ -20,7 +20,7 @@ The code is written in C++. It can be found under iq_gnc/src/iq_gnc/test0.cpp an
 The code was written in a catkin workspace (catkin_ws folder), and was compiled using the catkin packages.
 
 -------------------------------
-### Lidar and World:
+### LiDAR and World:
 The 3-D world is created by a the xml-formatting files under iq_sim/worlds. The files runway*.world can be used to test the ROS code and algorithm.
 
 The LiDAR used is a 360 degree lidar with 720 rays, which are ordered from the right hand side of the drone, in the anti-clockwise direction.

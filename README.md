@@ -17,15 +17,19 @@ This project uses a hybrid path-planning algorithm, made from tangent-bug, steep
 -------------------------------
 ### Code:
 The code is written in C++. It can be found under iq_gnc/src/iq_gnc/test0.cpp and iq_gnc/src/iq_gnc/test1.cpp
+The code was written in a catkin workspace (catkin_ws folder), and was compiled using the catkin packages.
 
 -------------------------------
 ### Lidar and World:
 The 3-D world is created by a the xml-formatting files under iq_sim/worlds. The files runway*.world can be used to test the ROS code and algorithm.
 
-The LiDAR used is 360 degree lidar with 720 rays, which are ordered from the right hand side of the drone, in the anti-clockwise direction.
+The LiDAR used is a 360 degree lidar with 720 rays, which are ordered from the right hand side of the drone, in the anti-clockwise direction.
 
 -------------------------------
 ### ROS Environment:
 This project was made in ROS-1 (noetic), and uses MAVROS plugins to access the IMU data, as well as control the drone through publishers and subscribers.
+The following GitHub tutorial was referred to set up the environment and plugins:
+
+https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_ros_20_04.md
 
 -------------------------------
